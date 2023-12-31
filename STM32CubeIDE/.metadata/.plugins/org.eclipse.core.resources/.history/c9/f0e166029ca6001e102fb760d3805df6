@@ -1,0 +1,8 @@
+#include "uart.h"
+#include "stm32f4xx.h"
+
+
+void uart_tx_init(void)
+{
+	/**/
+}

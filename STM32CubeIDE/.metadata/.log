@@ -1,0 +1,159 @@
+!SESSION 2023-12-26 10:57:32.068 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-26 10:58:38.458
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-26 10:58:38.473
+!MESSAGE Log4j2 initialized with config file E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-26 10:58:57.578
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-26 11:02:53.652
+!MESSAGE Indexed '0_led_driver' (3 sources, 53 headers) in 1.34 sec: 1,950 declarations; 2,832 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2023-12-26 19:20:58.180 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-26 19:21:19.874
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-26 19:21:19.881
+!MESSAGE Log4j2 initialized with config file E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-26 19:21:41.549
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-12-26 19:27:19.938 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-26 19:27:25.325
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-26 19:27:25.326
+!MESSAGE Log4j2 initialized with config file E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-26 19:27:45.550
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-12-27 12:21:37.807 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-27 12:22:00.857
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-27 12:22:00.863
+!MESSAGE Log4j2 initialized with config file E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-27 12:22:22.922
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-27 20:56:10.521
+!MESSAGE Indexed '1_uart_driver' (4 sources, 63 headers) in 1.23 sec: 3,091 declarations; 5,160 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.024%)
+!SESSION 2023-12-27 23:39:44.612 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-27 23:40:03.274
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-27 23:40:03.274
+!MESSAGE Log4j2 initialized with config file E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-27 23:40:23.939
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-12-27 23:43:42.529 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-27 23:43:48.287
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-27 23:43:48.287
+!MESSAGE Log4j2 initialized with config file E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-27 23:44:10.280
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.jobs 2 2 2023-12-27 23:52:24.372
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$39
+!SESSION 2023-12-28 11:16:17.499 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-28 11:16:42.129
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-28 11:16:42.139
+!MESSAGE Log4j2 initialized with config file E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-28 11:17:04.104
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-12-29 22:33:19.378 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-29 22:33:57.994
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-29 22:33:57.994
+!MESSAGE Log4j2 initialized with config file E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-29 22:34:19.781
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-12-31 17:30:51.017 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-31 17:31:14.612
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-31 17:31:14.619
+!MESSAGE Log4j2 initialized with config file E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-31 17:31:36.405
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-01-01 00:26:25.571 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-01-01 00:26:45.247
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-01-01 00:26:45.247
+!MESSAGE Log4j2 initialized with config file E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-01-01 00:27:06.280
+!MESSAGE Started RMI Server, listening on port 41337
