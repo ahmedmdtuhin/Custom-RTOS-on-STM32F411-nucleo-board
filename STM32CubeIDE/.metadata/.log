@@ -193,3 +193,9 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-01-08 09:57:19.590
 !MESSAGE Indexed '3_blocking_code' (6 sources, 67 headers) in 1.25 sec: 3,276 declarations; 5,460 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-08 10:38:11.343
+!MESSAGE Indexed '4_blocking_code2' (6 sources, 67 headers) in 0.413 sec: 3,292 declarations; 5,466 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.023%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-01-08 11:12:52.318
+!MESSAGE Won't launch debug session since we failed to locate the binary.
