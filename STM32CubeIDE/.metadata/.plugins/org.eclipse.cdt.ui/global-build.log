@@ -1,14 +1,7 @@
-22:46:43 **** Incremental Build of configuration Debug for project 2_timebase ****
+10:07:39 **** Incremental Build of configuration Debug for project 3_blocking_code ****
 make -j8 all 
-arm-none-eabi-gcc "../Src/timebase.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F411xE -c -I../Inc -I"E:/TUK_Summer2023/Sep 08_2023/Real Time OS on STM32 and TIVA C/MyOwnRTOS/STM32CubeIDE/2_timebase/chip_headers/CMSIS/Include" -I"E:/TUK_Summer2023/Sep 08_2023/Real Time OS on STM32 and TIVA C/MyOwnRTOS/STM32CubeIDE/2_timebase/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/timebase.d" -MT"Src/timebase.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/timebase.o"
-arm-none-eabi-gcc -o "2_timebase.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\TUK_Summer2023\Sep 08_2023\Real Time OS on STM32 and TIVA C\MyOwnRTOS\STM32CubeIDE\2_timebase\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2_timebase.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 2_timebase.elf
- 
-arm-none-eabi-size  2_timebase.elf 
-arm-none-eabi-objdump -h -S 2_timebase.elf  > "2_timebase.list"
+arm-none-eabi-size  3_blocking_code.elf 
    text	   data	    bss	    dec	    hex	filename
-   5396	    104	   1912	   7412	   1cf4	2_timebase.elf
+   5500	    104	   1912	   7516	   1d5c	3_blocking_code.elf
 Finished building: default.size.stdout
- 
-Finished building: 2_timebase.list
  
