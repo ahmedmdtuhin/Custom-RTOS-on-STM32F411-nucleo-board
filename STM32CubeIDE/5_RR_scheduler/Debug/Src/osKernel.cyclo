@@ -1,0 +1,7 @@
+E:/TUK_Summer2023/Sep 08_2023/Real Time OS on STM32 and TIVA C/MyOwnRTOS/STM32CubeIDE/5_RR_scheduler/chip_headers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	2
+../Src/osKernel.c:31:6:osKernelStackInit	1
+../Src/osKernel.c:59:9:osKernelAddThreads	1
+../Src/osKernel.c:95:6:osKernelInit	1
+../Src/osKernel.c:101:6:osKernelLaunch	1
+../Src/osKernel.c:122:28:SysTick_Handler	1
+../Src/osKernel.c:154:6:osSchedulerLaunch	1

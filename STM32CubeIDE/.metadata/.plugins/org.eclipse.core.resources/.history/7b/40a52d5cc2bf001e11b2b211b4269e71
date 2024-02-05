@@ -1,0 +1,7 @@
+#include "osKernel.h"
+
+struct tcb
+{
+	int32_t *stackPt;
+	struct tcb *nextPt;
+};

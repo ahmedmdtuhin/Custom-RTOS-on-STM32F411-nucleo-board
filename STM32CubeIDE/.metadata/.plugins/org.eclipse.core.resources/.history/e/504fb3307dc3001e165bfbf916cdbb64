@@ -1,0 +1,17 @@
+#include "osKernel.h"
+
+#define NUM_OF_THREADS     3
+#define STACKSIZE         100
+
+struct tcb
+{
+	int32_t *stackPt;
+	struct tcb *nextPt;
+};
+
+typedef struct tcb tcbType;
+
+tcbType tcbs[NUM_OF_THREADS];
+tcbType *curentPt;
+
+int32_t TCB_STACK [NUM_OF_THREADS][STACKSIZE];

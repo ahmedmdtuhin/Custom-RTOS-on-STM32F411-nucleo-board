@@ -1,0 +1,7 @@
+#ifndef __OSKERNEL_H__
+#define __OSKERNEL_H__
+
+#include <stdint.h>
+#include "stm32f4xx.h"
+
+#endif

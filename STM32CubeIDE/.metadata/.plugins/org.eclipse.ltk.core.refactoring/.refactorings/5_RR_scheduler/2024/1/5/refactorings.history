@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;5_RR_scheduler/Inc/OS_Kernel.h&apos; to &apos;osKernel.h&apos;" description="Rename resource &apos;OS_Kernel.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Inc/OS_Kernel.h" name="osKernel.h" stamp="1706653633595" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;5_RR_scheduler/Src/OS_Kernel.c&apos; to &apos;osKernel.c&apos;" description="Rename resource &apos;OS_Kernel.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/OS_Kernel.c" name="osKernel.c" stamp="1706653655204" updateReferences="true"/>
+</session>

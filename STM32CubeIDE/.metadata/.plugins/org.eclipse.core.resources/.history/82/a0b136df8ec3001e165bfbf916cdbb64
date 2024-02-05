@@ -1,0 +1,24 @@
+#include "osKernel.h"
+
+#define NUM_OF_THREADS     3
+#define STACKSIZE         100
+
+struct tcb
+{
+	int32_t *stackPt;
+	struct tcb *nextPt;
+};
+
+typedef struct tcb tcbType;
+
+tcbType tcbs[NUM_OF_THREADS];
+tcbType *curentPt;
+
+int32_t TCB_STACK [NUM_OF_THREADS][STACKSIZE]; //Holds the Stack for all the threads
+
+//Initialization of the stack for each thread
+void osKernelStackInit(int i) //i is the thread number
+{
+	//Set bit 21(T-bit) in PSR to 1, to operate in Thumb mode.
+	TCB_STACK[i][STACKSIZE - 1] =  (1U<<21);
+}

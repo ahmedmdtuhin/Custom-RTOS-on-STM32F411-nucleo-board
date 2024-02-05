@@ -1,0 +1,44 @@
+#include "osKernel.h"
+
+#define NUM_OF_THREADS     3
+#define STACKSIZE         100
+
+struct tcb
+{
+	int32_t *stackPt;
+	struct tcb *nextPt;
+};
+
+typedef struct tcb tcbType;
+
+tcbType tcbs[NUM_OF_THREADS];
+tcbType *curentPt;
+
+int32_t TCB_STACK [NUM_OF_THREADS][STACKSIZE]; //Holds the Stack for all the threads
+
+//Initialization of the stack for each thread
+void osKernelStackInit(int i) //i is the thread number
+{
+	tcbs[i].stackPt= &TCB_STACK[i][STACKSIZE - 16];
+	//Set bit 21(T-bit) in PSR to 1, to operate in Thumb mode.
+	TCB_STACK[i][STACKSIZE - 1] =  (1U<<21);   //PSR
+
+	//Dummy stack content for debugging
+	TCB_STACK[i][STACKSIZE - 3] = 0xAAAAAAAA;  //R14 i.e LR
+	TCB_STACK[i][STACKSIZE - 4] = 0xAAAAAAAA;  //R12
+	TCB_STACK[i][STACKSIZE - 5] = 0xAAAAAAAA;  //R3
+	TCB_STACK[i][STACKSIZE - 6] = 0xAAAAAAAA;  //R2
+	TCB_STACK[i][STACKSIZE - 7] = 0xAAAAAAAA;  //R1
+	TCB_STACK[i][STACKSIZE - 8] = 0xAAAAAAAA;  //R0
+
+	TCB_STACK[i][STACKSIZE - 9] = 0xAAAAAAAA;  //R11
+	TCB_STACK[i][STACKSIZE - 10] = 0xAAAAAAAA; //R10
+	TCB_STACK[i][STACKSIZE - 11] = 0xAAAAAAAA; //R9
+	TCB_STACK[i][STACKSIZE - 12] = 0xAAAAAAAA; //R8
+	TCB_STACK[i][STACKSIZE - 13] = 0xAAAAAAAA; //R7
+	TCB_STACK[i][STACKSIZE - 14] = 0xAAAAAAAA; //R6
+	TCB_STACK[i][STACKSIZE - 15] = 0xAAAAAAAA; //R5
+	TCB_STACK[i][STACKSIZE - 16] = 0xAAAAAAAA; //R4
+
+
+}

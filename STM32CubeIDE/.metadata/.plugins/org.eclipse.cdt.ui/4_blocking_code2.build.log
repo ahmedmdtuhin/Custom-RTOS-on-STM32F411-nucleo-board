@@ -1,4 +1,4 @@
-11:34:04 **** Incremental Build of configuration Debug for project 4_blocking_code2 ****
+08:29:49 **** Incremental Build of configuration Debug for project 4_blocking_code2 ****
 make -j8 all 
 arm-none-eabi-size  4_blocking_code2.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  4_blocking_code2.elf
 Finished building: default.size.stdout
  
 
-11:34:04 Build Finished. 0 errors, 0 warnings. (took 139ms)
+08:29:50 Build Finished. 0 errors, 0 warnings. (took 145ms)
 
