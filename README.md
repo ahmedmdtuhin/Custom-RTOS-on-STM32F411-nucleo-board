@@ -24,7 +24,7 @@ This project implements a custom Real-Time Operating System (RTOS) from scratch 
 - USB-to-serial monitor (e.g., PuTTY, Tera Term)
 
 ### Build and Flash
-1. Clone the repository:
+1. Clone the repository
 2. Open the project in STM32CubeIDE or use make to build if you're using a Makefile setup.
 3. Flash the firmware to the Nucleo board.
 4. Open a serial terminal at 9600 baud to see UART output.
